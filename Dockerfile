@@ -610,3 +610,19 @@ WORKDIR $HOME
 RUN mkdir -p "$HOME/.ort" "$HOME/.gradle"
 
 ENTRYPOINT ["/opt/ort/bin/ort"]
+
+#------------------------------------------------------------------------
+# Devcontainer for Visual Studio Code
+FROM all-tools AS devcontainer
+
+USER root
+
+RUN apt-get update && apt-get install -y \
+  curl ca-certificates sudo git bash procps \
+  && rm -rf /var/lib/apt/lists/*
+
+RUN mkdir -p /workspace && chown ort:ort /workspace
+USER $USERNAME
+
+VOLUME /workspace
+WORKDIR /workspace
