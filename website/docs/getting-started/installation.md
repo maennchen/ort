@@ -1,8 +1,6 @@
----
-sidebar_position: 1
----
-
 # Installation
+
+If you want to run ORT in a CI pipeline, see [CI Integrations](ci-integrations.md) instead.
 
 ## From Docker
 
@@ -11,7 +9,8 @@ There are two images available:
 [`ort`](https://github.com/oss-review-toolkit/ort/pkgs/container/ort/versions) and [`ort-minimal`](https://github.com/oss-review-toolkit/ort/pkgs/container/ort-minimal/versions).
 
 The difference between those two images is that `ort` contains installations of all supported package managers while `ort-minimal` contains only the most commonly used package managers to reduce the image size.
-For example, for release `13.0.0` the size of the [`ort`](https://github.com/oss-review-toolkit/ort/pkgs/container/ort/168323397?tag=13.0.0) image is ~7 GB and the size of the [`ort-minimal`](https://github.com/oss-review-toolkit/ort/pkgs/container/ort-minimal/168320821?tag=13.0.0) image is ~3 GB.
+For example, for release `76.0.0` the size of the [`ort`](https://github.com/oss-review-toolkit/ort/pkgs/container/ort) image is ~9 GB and the size of the [`ort-minimal`](https://github.com/oss-review-toolkit/ort/pkgs/container/ort-minimal) image is ~3 GB.
+Both images are available for amd64 and arm64 architectures.
 The examples below use the `ort` image.
 To run them with the `ort-minimal` image replace `ort` with `ort-minimal`.
 
@@ -19,14 +18,14 @@ To run the Docker image for the latest ORT release use:
 
 ```shell
 $ docker run ghcr.io/oss-review-toolkit/ort --version
-13.0.0
+76.0.0
 ```
 
-To run a specific version, for example `12.0.0`, use:
+To run a specific version, for example `76.0.0`, use:
 
 ```shell
-$ docker run ghcr.io/oss-review-toolkit/ort:12.0.0 --version
-12.0.0
+$ docker run ghcr.io/oss-review-toolkit/ort:76.0.0 --version
+76.0.0
 ```
 
 To show the command line help, run the image with the `--help` option:
@@ -108,7 +107,7 @@ Depending on how ORT was installed, it can be run in the following ways:
   docker run ort --help
   ```
 
-  You can find further hints for using ORT with Docker in the [documentation](../guides/docker.md).
+  You can find further hints for using ORT with Docker in the [documentation](../tutorials/docker.md).
 
 * If the ORT distribution was built from sources, use
 
