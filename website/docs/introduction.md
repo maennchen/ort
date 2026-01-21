@@ -1,3 +1,5 @@
+import SidebarSection from '@site/src/components/SidebarSection';
+
 # Introduction
 
 The OSS Review Toolkit (ORT) is a FOSS policy automation and orchestration toolkit that you can use to manage your (open source) software dependencies in a strategic, safe and efficient manner.
@@ -27,18 +29,15 @@ It consists of the following tools which can be combined into a *highly customiz
 ORT documentation is organized using the following [system][documentation-system]:
 
 - *Getting Started* - Begin here if you are new to ORT.
-  - [Installing ORT](getting-started/installation.md)
+  <SidebarSection categoryLabel="Getting Started" />
 - *Tutorials* - Learn via practical, step-by-step guides.
-  - FIXME
-- *How-to guides* - Helps you accomplish things, such as:
-  - [How to exclude dirs, files or scopes from scans](how-to-guides/how-to-exclude-dirs-files-or-scopes.md)
-  - [How to correct found licenses](how-to-guides/how-to-correct-licenses.md)
-  - [How to generate SBOMs and custom reports](how-to-guides/how-to-generate-sboms.md)
-- *Reference* - Consult the reference to find CLI parameters.
-  - [ORT CLI reference](reference/cli/index.md)
-  - [ORT Helper CLI reference](reference/cli/orth.md)
+  <SidebarSection categoryLabel="Tutorials" />
+- *How-to guides* - Helps you accomplish specific tasks.
+  <SidebarSection categoryLabel="How-to guides" />
+- *Reference* - Consult the reference for CLI parameters, configuration, and plugins.
+  <SidebarSection categoryLabel="Reference" />
 - *Explanation* - Deepen your understanding of ORT key concepts.
-  - [Types of licenses](explanation/types-of-licenses.md)
+  <SidebarSection categoryLabel="Explanation" />
 
 ## Staying informed
 
