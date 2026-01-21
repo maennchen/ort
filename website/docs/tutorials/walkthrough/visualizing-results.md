@@ -49,7 +49,7 @@ Open `ort-output/scan-report-web-app.html` in your browser.
 
 ### Summary tab
 
-![Summary tab](./web-app/summary.png)
+![Summary tab](./images/summary.png)
 
 The Summary tab shows an overview of the analysis:
 
@@ -61,19 +61,19 @@ The table at the bottom will show more information once we run the scanner and e
 
 ### Table tab
 
-![Table tab](./web-app/table.png)
+![Table tab](./images/table.png)
 
 The Table tab lists all projects and packages (dependencies). You can expand each entry to see its details.
 
 ### Tree tab
 
-![Tree tab](./web-app/tree.png)
+![Tree tab](./images/tree.png)
 
 The Tree tab shows the same information hierarchically, so you can see how dependencies relate to each other. Click on any package name to open its details.
 
 ### Dependency details
 
-![Dependency details](./web-app/dependency-details.png)
+![Dependency details](./images/dependency-details.png)
 
 When you click on a package, you'll see:
 

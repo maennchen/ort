@@ -68,13 +68,13 @@ Open `ort-output/scan-report-web-app.html` in your browser.
 
 ### Effective licenses
 
-![Effective Licenses](./scanner/effective-licences.png)
+![Effective Licenses](./images/effective-licences.png)
 
 The Summary tab now shows **Effective Licenses** - the licenses actually found in the source code. Notice how they differ from the declared licenses we saw earlier. The scanner found licenses that weren't declared in the package metadata.
 
 ### Package scan details
 
-![Package scan details](./scanner/package-detail-scan.png)
+![Package scan details](./images/package-detail-scan.png)
 
 Click on any package to see its scan results. The **Scan Results** section shows exactly which files contain license information and what was detected. This level of detail helps you understand where licenses come from and verify the findings.
 

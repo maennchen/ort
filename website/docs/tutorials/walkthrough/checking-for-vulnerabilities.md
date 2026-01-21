@@ -61,7 +61,7 @@ Open `ort-output/scan-report-web-app.html` in your browser.
 
 ### Vulnerabilities summary
 
-![Vulnerabilities](./advisor/vulnerabilities.png)
+![Vulnerabilities](./images/vulnerabilities.png)
 
 The Summary tab now shows a **Vulnerabilities** section listing the security issues found in your dependencies. You can see the severity, affected package, and vulnerability identifiers (CVE, GHSA, etc.).
 

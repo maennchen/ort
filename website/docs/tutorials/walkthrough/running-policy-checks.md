@@ -88,7 +88,7 @@ Open `ort-output/scan-report-web-app.html` in your browser.
 
 ### Rule violations
 
-![Rule Violations](./evaluator/violations.png)
+![Rule Violations](./images/violations.png)
 
 The Summary tab now shows a **Rule Violations** section listing all policy violations found by the evaluator. You can see unhandled licenses that need to be handled by your policy. See [How to address a license policy violation](../../how-to-guides/how-to-address-a-license-policy-violation.md) for details on resolving these.
 
