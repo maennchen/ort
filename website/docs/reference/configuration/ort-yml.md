@@ -93,7 +93,7 @@ The path exclude below has the following effects:
 
 * All projects found below the `test-data` directory are marked as excluded.
 * License findings in files below the `test-data` directory are marked as excluded.
-  This can be used in [evaluator rules](FIXME) to for instance change the severity from error to warning.
+  This can be used in [evaluator rules](evaluator-rules.md) to for instance change the severity from error to warning.
 
 ```yaml
 excludes:

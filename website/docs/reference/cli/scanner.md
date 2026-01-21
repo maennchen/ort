@@ -179,7 +179,7 @@ ort:
   - [How to make snippet choices](../../how-to-guides/how-to-make-snippet-choices.md)
   - [How to address tool issues](../../how-to-guides/how-to-address-tool-issues.md)
 - Tutorials
-  - FIXME
+  - [Getting Started Walkthrough](../../tutorials/walkthrough/index.md)
 
 [analyzer]: analyzer.md
 [downloader]: downloader.md

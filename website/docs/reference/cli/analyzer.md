@@ -99,4 +99,4 @@ If another package manager that is not part of the list above is used (or no pac
   - [How to add non-detected or supported packages](../../how-to-guides/how-to-add-non-detected-or-supported-packages.md)
   - [How to address tool issues](../../how-to-guides/how-to-address-tool-issues.md)
 - Tutorials
-  - FIXME
+  - [Getting Started Walkthrough](../../tutorials/walkthrough/index.md)

@@ -73,4 +73,4 @@ ort report [<options>]
   - [How to generate custom reports](../../how-to-guides/how-to-generate-custom-reports.md)
   - [How to address tool issues](../../how-to-guides/how-to-address-tool-issues.md)
 - Tutorials
-  - FIXME
+  - [Getting Started Walkthrough](../../tutorials/walkthrough/index.md)
