@@ -2,7 +2,7 @@
 
 This is part of the [ORT Walkthrough tutorial](index.md). Make sure you've completed the [Web App](web-app.md) step before continuing.
 
-The Scanner downloads source code for each package and runs license scanners to detect licenses and copyrights in the actual source files. This goes beyond the declared licenses we saw in the analyzer results - it finds what's actually in the code.
+The [Scanner] downloads source code for each package and runs license scanners to detect licenses and copyrights in the actual source files. This goes beyond the declared licenses we saw in the analyzer results, finding what's actually in the code.
 
 The scanner automatically uses the [Downloader](../../reference/cli/downloader.md) to fetch source code before scanning. If you need to archive source code separately (e.g., for license compliance), see [How to download sources for projects and dependencies](../../how-to-guides/how-to-download-sources-for-projects-and-dependencies.md).
 
@@ -162,3 +162,5 @@ The scanner has revealed what licenses are actually in the code. Next, let's use
 - [How to correct licenses](../../how-to-guides/how-to-correct-licenses.md) - Fix incorrect license detections
 - [How to exclude dirs, files, or scopes](../../how-to-guides/how-to-exclude-dirs-files-or-scopes.md) - Exclude files from analysis
 - [Package configurations](../../reference/configuration/package-configurations.md) - Exclude files from scan results
+
+[Scanner]: ../../reference/cli/scanner.md

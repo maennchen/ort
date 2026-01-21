@@ -2,7 +2,7 @@
 
 This is part of the [ORT Walkthrough tutorial](index.md). Make sure you've completed the [Analyzer](analyzer.md) step before continuing.
 
-ORT includes a `report` command that generates various output formats. Normally you run it at the end of your workflow, but the **WebApp** format is particularly useful for exploring and debugging results at any stage.
+The [Reporter] can generate many output formats from any ORT result file, whether from the Analyzer, Scanner, Advisor, or Evaluator. The **WebApp** format is particularly useful for exploring results interactively at any stage of the pipeline. Here you'll generate your first report and learn to navigate its interface, understanding how to find dependency details, licenses, and issues. This same report will show progressively more information as we add scanner and evaluator results in later steps.
 
 Let's generate a web app to visualize our analyzer results.
 
@@ -94,3 +94,5 @@ Now that we can visualize our results, let's continue to the [Scanner](scanner.m
 
 - [Reporter CLI reference](../../reference/cli/reporter.md) - All report formats and options
 - [Reporter templates](../../reference/configuration/reporter-templates.md) - Customize report output
+
+[Reporter]: ../../reference/cli/reporter.md

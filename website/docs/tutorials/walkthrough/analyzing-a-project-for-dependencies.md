@@ -2,7 +2,7 @@
 
 This is part of the [ORT walkthrough tutorial](index.md). Make sure you've completed the setup steps before continuing.
 
-The [Analyzer] is ORT's first step. It scans your project directory for build files (like `Cargo.toml`, `package.json`, `pom.xml`, etc.) and queries installed package managers to determine what dependencies your project has.
+The [Analyzer] is ORT's first step. It automatically detects build files in your project (like `Cargo.toml`, `package.json`, or `pom.xml`) and queries package managers to build a complete dependency tree. You'll see how ORT identifies dependencies and captures metadata like licenses, authors, and source locations that later steps use for scanning and compliance checks.
 
 The output is an `analyzer-result.yml` file containing your project's complete dependency tree along with metadata about each package.
 

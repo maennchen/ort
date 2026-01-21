@@ -2,7 +2,7 @@
 
 This is part of the [ORT Walkthrough tutorial](index.md). Make sure you've completed the [Evaluator](evaluator.md) step before continuing.
 
-The Reporter generates various output formats from ORT results. Throughout this tutorial, we've been using the WebApp format to visualize results. Now let's generate SBOMs (Software Bill of Materials) in industry-standard formats.
+The [Reporter] generates various output formats from ORT results. Throughout this tutorial, we've used the WebApp format for interactive exploration. Now you'll generate SBOMs (Software Bill of Materials) in industry-standard formats like CycloneDX and SPDX that you can share with customers, use for compliance documentation, or feed into other security tools.
 
 ## Generating SBOMs
 
@@ -71,3 +71,5 @@ To use ORT on your own projects, check out [Getting Started](../../getting-start
 - [Reporter CLI reference](../../reference/cli/reporter.md) - All report formats and options
 - [How to generate SBOMs](../../how-to-guides/how-to-generate-sboms.md) - SPDX and CycloneDX details
 - [Reporter templates](../../reference/configuration/reporter-templates.md) - Customize NOTICE files and other templates
+
+[Reporter]: ../../reference/cli/reporter.md

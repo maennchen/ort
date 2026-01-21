@@ -114,7 +114,7 @@ If you want to dive deeper into specific topics as you go through this tutorial:
 - [How-to Guides](../../how-to-guides/index.md) - Task-oriented guides for specific problems
 - [Reference](../../reference/index.md) - CLI options, configuration files, and technical details
 
-[configuration]: ../../reference/configurations/index.md
-[license-classifications]: ../../reference/configurations/license-classifications.md
-[package-configurations]: ../../reference/configurations/package-configurations.md
-[package-curations]: ../../reference/configurations/package-curations.md
+[configuration]: ../../reference/configuration/index.md
+[license-classifications]: ../../reference/configuration/license-classifications.md
+[package-configurations]: ../../reference/configuration/package-configurations.md
+[package-curations]: ../../reference/configuration/package-curations.md

@@ -38,7 +38,7 @@ ort download \
 
 ## Creating a single project archive
 
-To download and bundle all sources into one ZIP file,, use `--archive-all`:
+To download and bundle all sources into one ZIP file, use `--archive-all`:
 
 ```shell
 ort download \

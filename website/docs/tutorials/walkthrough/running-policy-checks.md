@@ -2,7 +2,7 @@
 
 This is part of the [ORT Walkthrough tutorial](index.md). Make sure you've completed the [Advisor](advisor.md) step before continuing.
 
-The Evaluator checks your scan results against policy rules. It uses a Kotlin-based rules script to define what licenses are allowed, which packages need review, and other compliance requirements.
+The [Evaluator] applies policy rules to your scan results, checking which licenses are allowed, flagging packages that need review, and enforcing compliance requirements. You'll see how rule violations are reported and understand the difference between errors, warnings, and hints that guide your remediation efforts.
 
 ## Setting up rules
 
@@ -103,3 +103,5 @@ The evaluator has checked our project against policy rules. Now let's use the [R
 - [License classifications](../../reference/configuration/license-classifications.md) - Categorize licenses for rules
 - [How to classify licenses](../../how-to-guides/how-to-classify-licenses.md) - Set up license categories
 - [How to address a license policy violation](../../how-to-guides/how-to-address-a-license-policy-violation.md) - Handle rule violations
+
+[Evaluator]: ../../reference/cli/evaluator.md

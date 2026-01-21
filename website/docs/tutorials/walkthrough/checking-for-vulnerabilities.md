@@ -2,7 +2,7 @@
 
 This is part of the [ORT Walkthrough tutorial](index.md). Make sure you've completed the [Scanner](scanner.md) step before continuing.
 
-The Advisor checks your dependencies against vulnerability databases to identify known security issues. It queries services like [OSV](https://osv.dev/) (Open Source Vulnerabilities), [VulnerableCode](https://github.com/aboutcode-org/vulnerablecode), or commercial services to find CVEs and other security advisories affecting your packages.
+The [Advisor] checks your dependencies against vulnerability databases like [OSV](https://osv.dev/) and [VulnerableCode](https://github.com/aboutcode-org/vulnerablecode) to find known security issues. You'll learn how ORT queries these services, interprets vulnerability severity, and presents findings so you can assess which issues need attention in your project.
 
 ## Running the Advisor
 
@@ -75,3 +75,5 @@ We now have a complete picture of our project: dependencies, licenses, and vulne
 
 - [Advisor CLI reference](../../reference/cli/advisor.md) - All advisor options and supported services
 - [How to check and remediate vulnerabilities](../../how-to-guides/how-to-check-and-remediate-vulnerabilities.md) - Handle vulnerability findings
+
+[Advisor]: ../../reference/cli/advisor.md
