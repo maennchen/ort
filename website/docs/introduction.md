@@ -8,7 +8,7 @@ The OSS Review Toolkit (ORT) is a FOSS policy automation and orchestration toolk
 
 You can use ORT to:
 
-* Generate [CycloneDX, SPDX SBOMs][how-to-generate-sboms], or [custom FOSS attribution documentation][how-to-generate-custom-reports] for your software project
+* Generate [CycloneDX, SPDX SBOMs][how-to-generate-sboms], or [custom FOSS attribution documentation][reporter-templates] for your software project
 * Automate your FOSS policy using risk-based Policy as Code to do licensing, security vulnerability, InnerSource and engineering standards checks for your software project and its dependencies
 * Create a [source code archive][how-to-download-sources] for your software project and its dependencies to comply with certain licenses or have your own copy as nothing on the internet is forever
 * Correct [package metadata][package-curations] or [licensing findings][how-to-correct-licenses] yourself, using InnerSource or with the help of the FOSS community
@@ -56,7 +56,7 @@ For new feature requests, please review the existing [GitHub issues][ort-github-
 [GitHub]: https://github.com/oss-review-toolkit/ort
 [how-to-correct-licenses]: ./how-to-guides/how-to-correct-licenses
 [how-to-download-sources]: ./how-to-guides/how-to-download-sources-for-projects-and-dependencies
-[how-to-generate-custom-reports]: ./how-to-guides/how-to-generate-custom-reports
+[reporter-templates]: ./reference/configuration/reporter-templates
 [how-to-generate-sboms]: ./how-to-guides/how-to-generate-sboms
 [LinkedIn]: https://www.linkedin.com/company/oss-review-toolkit
 [ort-github-issues]: https://github.com/oss-review-toolkit/ort/issues

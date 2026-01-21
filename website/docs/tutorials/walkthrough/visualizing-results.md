@@ -93,4 +93,4 @@ Now that we can visualize our results, let's continue to the [Scanner](scanner.m
 ## Learn more
 
 - [Reporter CLI reference](../../reference/cli/reporter.md) - All report formats and options
-- [How to generate custom reports](../../how-to-guides/how-to-generate-custom-reports.md) - Customize report output
+- [Reporter templates](../../reference/configuration/reporter-templates.md) - Customize report output

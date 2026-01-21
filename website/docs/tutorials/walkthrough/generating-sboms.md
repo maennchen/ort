@@ -70,5 +70,4 @@ To use ORT on your own projects, check out [Getting Started](../../getting-start
 
 - [Reporter CLI reference](../../reference/cli/reporter.md) - All report formats and options
 - [How to generate SBOMs](../../how-to-guides/how-to-generate-sboms.md) - SPDX and CycloneDX details
-- [How to generate custom reports](../../how-to-guides/how-to-generate-custom-reports.md) - Customize report output
 - [Reporter templates](../../reference/configuration/reporter-templates.md) - Customize NOTICE files and other templates

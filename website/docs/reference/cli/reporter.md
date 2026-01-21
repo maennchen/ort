@@ -70,7 +70,8 @@ ort report [<options>]
   - [plugins/commands/reporter/src/main/kotlin/ReportCommand.kt](https://github.com/oss-review-toolkit/ort/blob/main/plugins/commands/reporter/src/main/kotlin/ReportCommand.kt)
 - How-to guides
   - [How to generate SBOMs](../../how-to-guides/how-to-generate-sboms.md)
-  - [How to generate custom reports](../../how-to-guides/how-to-generate-custom-reports.md)
   - [How to address tool issues](../../how-to-guides/how-to-address-tool-issues.md)
+- Reference
+  - [Reporter templates](../configuration/reporter-templates.md)
 - Tutorials
   - [Getting Started Walkthrough](../../tutorials/walkthrough/index.md)

@@ -156,8 +156,6 @@ The `template.id` and `template.path` options can be combined to generate multip
 - Examples
   - [examples/asciidoctor-pdf-theme.yml](https://github.com/oss-review-toolkit/ort/blob/main/examples/asciidoctor-pdf-theme.yml)
   - [asciidoctor-pdf-theme.yml within the ort-config repository](https://github.com/oss-review-toolkit/ort-config/blob/main/asciidoctor-pdf-theme.yml)
-- How-to guides
-  - [How to generate custom reports](../../how-to-guides/how-to-generate-custom-reports.md)
 - Reference
   - [Reporter CLI --report-formats option](../cli/reporter.md#configuration-options)
 
