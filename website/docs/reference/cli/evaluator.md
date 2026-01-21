@@ -30,7 +30,7 @@ ort evaluate [<options>]
 
 ## Options
 
-- `-r`, `--rules-file=<value>` - The name of a script file containing rules.
+- `-r`, `--rules-file=<value>` - The name of a script file containing rules. See [Evaluator Rules](../configuration/evaluator-rules.md) for the file format.
 - `--rules-resource=<text>` - The name of a script resource on the classpath that contains rules.
 - `-l`, `--label=<value>` - Set a label in the ORT result, overwriting any existing label of the same name. Can be used multiple times. For example: `--label distribution=external`.
 - `--check-syntax` - Do not evaluate the script but only check its syntax. No output is written in this case.
@@ -40,9 +40,11 @@ ort evaluate [<options>]
 
 - Code
   - [plugins/commands/evaluator/src/main/kotlin/EvaluateCommand.kt](https://github.com/oss-review-toolkit/ort/blob/main/plugins/commands/evaluator/src/main/kotlin/EvaluateCommand.kt)
+- Reference
+  - [Evaluator Rules](../configuration/evaluator-rules.md)
 - How-to guides
   - [How to classify licenses](../../how-to-guides/how-to-classify-licenses.md)
   - [How to make a license choice](../../how-to-guides/how-to-make-a-license-choice.md)
   - [How to address a license policy violation](../../how-to-guides/how-to-address-a-license-policy-violation.md)
 - Tutorials
-  - FIXME
+  - [Automate your Policy Checks](../../tutorials/automate-policy-checks.md)

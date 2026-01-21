@@ -49,6 +49,7 @@ const sidebars = {
         },
         'tutorials/review-procedure',
         'tutorials/docker',
+        'tutorials/automate-policy-checks',
       ],
     },
     {
